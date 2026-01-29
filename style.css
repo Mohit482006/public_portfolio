@@ -111,29 +111,16 @@ section p {
 }
 
 /* ================= PROJECTS ================= */
-.project-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 18px;
-}
-
-.project-card {
-  background: rgba(0, 255, 213, 0.06);
-  border: 1px solid rgba(0, 255, 213, 0.25);
-  border-radius: 16px;
-  padding: 18px;
-  transition: 0.3s;
-}
-
-.project-card h3 {
+.project-links a {
   color: #00ffd5;
-  margin-bottom: 8px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 20px rgba(0, 255, 213, 0.3);
+.project-links a:hover {
+  text-decoration: underline;
 }
+
 
 /* ================= HOBBIES ================= */
 .hobby-list {
@@ -219,5 +206,8 @@ section p {
     height: 170px;
   }
 }
+
+
+
 
 
